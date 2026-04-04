@@ -33,7 +33,8 @@ Se planea expandir con múltiples widgets modernos como botones, combos avanzado
 
 ## 📸 Preview
 
-![Demo](docs/images/demo.png)
+![SWToggleSwitch](docs/images/demo.png)
+![SWRibbon](docs/images/ribbon.png)
 
 ---
 
