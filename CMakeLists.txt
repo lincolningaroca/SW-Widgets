@@ -12,13 +12,17 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Gui Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui Widgets)
 
 option(SW_BUILD_EXAMPLES "Build examples" ON)
+
 if(SW_BUILD_EXAMPLES)
-    add_subdirectory(examples/demo_app/)
+    add_subdirectory(examples/swtoggleswitch)
+    add_subdirectory(examples/swribbon)
 endif()
 
 add_library(SW_Widgets STATIC
     src/SWFluentUI/SWToggleSwitch.cpp
     include/SWFluentUI/swtoggleswitch.hpp
+    src/SWFluentUI/swribbon.cpp
+    include/SWFluentUI/swribbon.hpp
 )
 
 target_include_directories(SW_Widgets
