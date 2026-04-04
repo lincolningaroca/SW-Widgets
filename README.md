@@ -16,14 +16,15 @@ Este proyecto está en desarrollo activo.
 Actualmente incluye:
 
 * ✔ SWToggleSwitch
+* ✔ SWRibbon
 
-Se planea expandir con múltiples widgets modernos como botones, combos avanzados y un sistema tipo Ribbon.
+Se planea expandir con múltiples widgets modernos como botones, combos avanzados, un panel lateral colapsable y muchos mas widgets, que la libreria standar de Qt, no posee.
 
 ---
 
 ## ✨ Features
 
-* 🎛 **SWToggleSwitch** estilo Windows 11
+* 🎛 **SWToggleSwitch** y **SWRibbon** estilo Windows 11
 * 🎨 Integración con temas del sistema (QPalette)
 * ⚡ Animaciones suaves (QEasingCurve)
 * 🖥 DPI-aware
@@ -200,7 +201,8 @@ SW_Widgets/
 Ubicado en:
 
 ```
-examples/demo_app
+examples/swtoggleswitch
+examples/swribbon
 ```
 
 ---
@@ -210,9 +212,10 @@ examples/demo_app
 * [x] SWToggleSwitch
 * [ ] SWButton (Fluent)
 * [ ] SWComboBox moderno
-* [ ] SWRibbon (tipo Microsoft Office)
+* [x] SWRibbon (tipo Microsoft Office)
 * [ ] SWThemeManager global
 * [ ] Sistema de animaciones avanzadas
+* [ ] SWSidePanel
 
 ---
 
